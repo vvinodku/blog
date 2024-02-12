@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title | default: "Shakh's Blog" }}</title>
+    <link rel="stylesheet" href="/css/blog.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/fte3jxt.css">
+</head>
+<body>
+    <a href="/index.html">{{back | default: "⬅ take me backkkkkk" }}</a>
+    <header>
+        <h1>{{ title | default: "I forgot to name this blog post" }}</h1>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+</body>
+</html>
